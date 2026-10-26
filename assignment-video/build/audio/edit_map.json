@@ -1,0 +1,897 @@
+{
+ "report": {
+  "input_seconds": 336.128,
+  "output_seconds": 301.058,
+  "removed_manual_seconds": 9.379999999999985,
+  "removed_pause_seconds": 23.19,
+  "segments": 126,
+  "junctions": 125,
+  "lead_seconds": 0.35,
+  "tail_seconds": 0.45
+ },
+ "segments": [
+  {
+   "src_start": 0.14,
+   "src_end": 6.13,
+   "dst_start": 0.0,
+   "dst_end": 5.99
+  },
+  {
+   "src_start": 6.18,
+   "src_end": 6.62,
+   "dst_start": 5.97,
+   "dst_end": 6.41
+  },
+  {
+   "src_start": 6.78,
+   "src_end": 6.9,
+   "dst_start": 6.39,
+   "dst_end": 6.51
+  },
+  {
+   "src_start": 7.47,
+   "src_end": 10.88,
+   "dst_start": 6.49,
+   "dst_end": 9.9
+  },
+  {
+   "src_start": 10.96,
+   "src_end": 15.87,
+   "dst_start": 9.88,
+   "dst_end": 14.79
+  },
+  {
+   "src_start": 15.89,
+   "src_end": 18.57,
+   "dst_start": 14.77,
+   "dst_end": 17.45
+  },
+  {
+   "src_start": 18.99,
+   "src_end": 19.14,
+   "dst_start": 17.43,
+   "dst_end": 17.58
+  },
+  {
+   "src_start": 19.48,
+   "src_end": 24.7,
+   "dst_start": 17.56,
+   "dst_end": 22.78
+  },
+  {
+   "src_start": 24.76,
+   "src_end": 26.61,
+   "dst_start": 22.76,
+   "dst_end": 24.61
+  },
+  {
+   "src_start": 26.71,
+   "src_end": 29.65,
+   "dst_start": 24.59,
+   "dst_end": 27.53
+  },
+  {
+   "src_start": 29.75,
+   "src_end": 29.86,
+   "dst_start": 27.51,
+   "dst_end": 27.62
+  },
+  {
+   "src_start": 30.15,
+   "src_end": 32.9,
+   "dst_start": 27.6,
+   "dst_end": 30.35
+  },
+  {
+   "src_start": 33.63,
+   "src_end": 33.83,
+   "dst_start": 30.33,
+   "dst_end": 30.53
+  },
+  {
+   "src_start": 34.18,
+   "src_end": 36.4,
+   "dst_start": 30.51,
+   "dst_end": 32.73
+  },
+  {
+   "src_start": 36.44,
+   "src_end": 39.01,
+   "dst_start": 32.71,
+   "dst_end": 35.28
+  },
+  {
+   "src_start": 39.02,
+   "src_end": 39.12,
+   "dst_start": 35.26,
+   "dst_end": 35.36
+  },
+  {
+   "src_start": 39.41,
+   "src_end": 41.35,
+   "dst_start": 35.34,
+   "dst_end": 37.28
+  },
+  {
+   "src_start": 41.6,
+   "src_end": 46.76,
+   "dst_start": 37.26,
+   "dst_end": 42.42
+  },
+  {
+   "src_start": 46.9,
+   "src_end": 47.31,
+   "dst_start": 42.4,
+   "dst_end": 42.81
+  },
+  {
+   "src_start": 47.5,
+   "src_end": 47.55,
+   "dst_start": 42.79,
+   "dst_end": 42.84
+  },
+  {
+   "src_start": 47.98,
+   "src_end": 51.94,
+   "dst_start": 42.82,
+   "dst_end": 46.78
+  },
+  {
+   "src_start": 52.06,
+   "src_end": 54.86,
+   "dst_start": 46.76,
+   "dst_end": 49.56
+  },
+  {
+   "src_start": 55.02,
+   "src_end": 58.08,
+   "dst_start": 49.54,
+   "dst_end": 52.6
+  },
+  {
+   "src_start": 58.34,
+   "src_end": 63.59,
+   "dst_start": 52.58,
+   "dst_end": 57.83
+  },
+  {
+   "src_start": 63.78,
+   "src_end": 64.08,
+   "dst_start": 57.81,
+   "dst_end": 58.11
+  },
+  {
+   "src_start": 64.4,
+   "src_end": 71.79,
+   "dst_start": 58.09,
+   "dst_end": 65.48
+  },
+  {
+   "src_start": 71.99,
+   "src_end": 74.79,
+   "dst_start": 65.46,
+   "dst_end": 68.26
+  },
+  {
+   "src_start": 75.17,
+   "src_end": 79.72,
+   "dst_start": 68.24,
+   "dst_end": 72.79
+  },
+  {
+   "src_start": 80.48,
+   "src_end": 80.99,
+   "dst_start": 72.77,
+   "dst_end": 73.28
+  },
+  {
+   "src_start": 81.1,
+   "src_end": 81.22,
+   "dst_start": 73.26,
+   "dst_end": 73.38
+  },
+  {
+   "src_start": 81.49,
+   "src_end": 82.4,
+   "dst_start": 73.36,
+   "dst_end": 74.27
+  },
+  {
+   "src_start": 82.43,
+   "src_end": 87.3,
+   "dst_start": 74.25,
+   "dst_end": 79.12
+  },
+  {
+   "src_start": 87.62,
+   "src_end": 90.98,
+   "dst_start": 79.1,
+   "dst_end": 82.46
+  },
+  {
+   "src_start": 91.04,
+   "src_end": 91.31,
+   "dst_start": 82.44,
+   "dst_end": 82.71
+  },
+  {
+   "src_start": 91.51,
+   "src_end": 98.16,
+   "dst_start": 82.69,
+   "dst_end": 89.34
+  },
+  {
+   "src_start": 98.95,
+   "src_end": 99.07,
+   "dst_start": 89.32,
+   "dst_end": 89.44
+  },
+  {
+   "src_start": 99.55,
+   "src_end": 103.89,
+   "dst_start": 89.42,
+   "dst_end": 93.76
+  },
+  {
+   "src_start": 104.05,
+   "src_end": 106.96,
+   "dst_start": 93.74,
+   "dst_end": 96.65
+  },
+  {
+   "src_start": 107.09,
+   "src_end": 111.74,
+   "dst_start": 96.63,
+   "dst_end": 101.28
+  },
+  {
+   "src_start": 111.94,
+   "src_end": 116.94,
+   "dst_start": 101.26,
+   "dst_end": 106.26
+  },
+  {
+   "src_start": 117.34,
+   "src_end": 121.35,
+   "dst_start": 106.24,
+   "dst_end": 110.25
+  },
+  {
+   "src_start": 121.52,
+   "src_end": 123.04,
+   "dst_start": 110.23,
+   "dst_end": 111.75
+  },
+  {
+   "src_start": 123.23,
+   "src_end": 123.54,
+   "dst_start": 111.73,
+   "dst_end": 112.04
+  },
+  {
+   "src_start": 123.65,
+   "src_end": 123.77,
+   "dst_start": 112.02,
+   "dst_end": 112.14
+  },
+  {
+   "src_start": 124.22,
+   "src_end": 127.55,
+   "dst_start": 112.12,
+   "dst_end": 115.45
+  },
+  {
+   "src_start": 127.78,
+   "src_end": 127.92,
+   "dst_start": 115.43,
+   "dst_end": 115.57
+  },
+  {
+   "src_start": 128.36,
+   "src_end": 131.48,
+   "dst_start": 115.55,
+   "dst_end": 118.67
+  },
+  {
+   "src_start": 131.86,
+   "src_end": 136.72,
+   "dst_start": 118.65,
+   "dst_end": 123.51
+  },
+  {
+   "src_start": 136.9,
+   "src_end": 139.42,
+   "dst_start": 123.49,
+   "dst_end": 126.01
+  },
+  {
+   "src_start": 139.61,
+   "src_end": 140.27,
+   "dst_start": 125.99,
+   "dst_end": 126.65
+  },
+  {
+   "src_start": 140.49,
+   "src_end": 142.65,
+   "dst_start": 126.63,
+   "dst_end": 128.79
+  },
+  {
+   "src_start": 142.9,
+   "src_end": 145.73,
+   "dst_start": 128.77,
+   "dst_end": 131.6
+  },
+  {
+   "src_start": 145.85,
+   "src_end": 147.7,
+   "dst_start": 131.58,
+   "dst_end": 133.43
+  },
+  {
+   "src_start": 148.32,
+   "src_end": 148.7,
+   "dst_start": 133.41,
+   "dst_end": 133.79
+  },
+  {
+   "src_start": 148.72,
+   "src_end": 149.02,
+   "dst_start": 133.77,
+   "dst_end": 134.07
+  },
+  {
+   "src_start": 149.05,
+   "src_end": 149.12,
+   "dst_start": 134.05,
+   "dst_end": 134.12
+  },
+  {
+   "src_start": 149.77,
+   "src_end": 150.6,
+   "dst_start": 134.1,
+   "dst_end": 134.93
+  },
+  {
+   "src_start": 150.71,
+   "src_end": 151.53,
+   "dst_start": 134.91,
+   "dst_end": 135.73
+  },
+  {
+   "src_start": 151.56,
+   "src_end": 153.28,
+   "dst_start": 135.71,
+   "dst_end": 137.43
+  },
+  {
+   "src_start": 153.37,
+   "src_end": 156.98,
+   "dst_start": 137.41,
+   "dst_end": 141.02
+  },
+  {
+   "src_start": 157.05,
+   "src_end": 159.53,
+   "dst_start": 141.0,
+   "dst_end": 143.48
+  },
+  {
+   "src_start": 159.78,
+   "src_end": 162.14,
+   "dst_start": 143.46,
+   "dst_end": 145.82
+  },
+  {
+   "src_start": 162.17,
+   "src_end": 162.28,
+   "dst_start": 145.8,
+   "dst_end": 145.91
+  },
+  {
+   "src_start": 164.31,
+   "src_end": 166.4,
+   "dst_start": 145.89,
+   "dst_end": 147.98
+  },
+  {
+   "src_start": 166.72,
+   "src_end": 171.55,
+   "dst_start": 147.96,
+   "dst_end": 152.79
+  },
+  {
+   "src_start": 171.97,
+   "src_end": 173.1,
+   "dst_start": 152.77,
+   "dst_end": 153.9
+  },
+  {
+   "src_start": 173.24,
+   "src_end": 177.2,
+   "dst_start": 153.88,
+   "dst_end": 157.84
+  },
+  {
+   "src_start": 178.03,
+   "src_end": 178.58,
+   "dst_start": 157.82,
+   "dst_end": 158.37
+  },
+  {
+   "src_start": 178.76,
+   "src_end": 179.99,
+   "dst_start": 158.35,
+   "dst_end": 159.58
+  },
+  {
+   "src_start": 180.0,
+   "src_end": 185.7,
+   "dst_start": 159.56,
+   "dst_end": 165.26
+  },
+  {
+   "src_start": 185.72,
+   "src_end": 186.5,
+   "dst_start": 165.24,
+   "dst_end": 166.02
+  },
+  {
+   "src_start": 186.61,
+   "src_end": 190.49,
+   "dst_start": 166.0,
+   "dst_end": 169.88
+  },
+  {
+   "src_start": 190.69,
+   "src_end": 192.67,
+   "dst_start": 169.86,
+   "dst_end": 171.84
+  },
+  {
+   "src_start": 192.79,
+   "src_end": 193.8,
+   "dst_start": 171.82,
+   "dst_end": 172.83
+  },
+  {
+   "src_start": 193.9,
+   "src_end": 197.22,
+   "dst_start": 172.81,
+   "dst_end": 176.13
+  },
+  {
+   "src_start": 197.75,
+   "src_end": 201.39,
+   "dst_start": 176.11,
+   "dst_end": 179.75
+  },
+  {
+   "src_start": 201.45,
+   "src_end": 204.07,
+   "dst_start": 179.73,
+   "dst_end": 182.35
+  },
+  {
+   "src_start": 204.22,
+   "src_end": 205.7,
+   "dst_start": 182.33,
+   "dst_end": 183.81
+  },
+  {
+   "src_start": 205.72,
+   "src_end": 207.09,
+   "dst_start": 183.79,
+   "dst_end": 185.16
+  },
+  {
+   "src_start": 207.22,
+   "src_end": 209.26,
+   "dst_start": 185.14,
+   "dst_end": 187.18
+  },
+  {
+   "src_start": 209.42,
+   "src_end": 209.6,
+   "dst_start": 187.16,
+   "dst_end": 187.34
+  },
+  {
+   "src_start": 210.1,
+   "src_end": 215.03,
+   "dst_start": 187.32,
+   "dst_end": 192.25
+  },
+  {
+   "src_start": 215.66,
+   "src_end": 216.44,
+   "dst_start": 192.23,
+   "dst_end": 193.01
+  },
+  {
+   "src_start": 216.46,
+   "src_end": 217.36,
+   "dst_start": 192.99,
+   "dst_end": 193.89
+  },
+  {
+   "src_start": 217.39,
+   "src_end": 220.14,
+   "dst_start": 193.87,
+   "dst_end": 196.62
+  },
+  {
+   "src_start": 220.32,
+   "src_end": 223.98,
+   "dst_start": 196.6,
+   "dst_end": 200.26
+  },
+  {
+   "src_start": 225.11,
+   "src_end": 231.0,
+   "dst_start": 200.24,
+   "dst_end": 206.13
+  },
+  {
+   "src_start": 231.19,
+   "src_end": 236.36,
+   "dst_start": 206.11,
+   "dst_end": 211.28
+  },
+  {
+   "src_start": 237.13,
+   "src_end": 241.87,
+   "dst_start": 211.26,
+   "dst_end": 216.0
+  },
+  {
+   "src_start": 242.12,
+   "src_end": 247.48,
+   "dst_start": 215.98,
+   "dst_end": 221.34
+  },
+  {
+   "src_start": 248.3,
+   "src_end": 248.5,
+   "dst_start": 221.32,
+   "dst_end": 221.52
+  },
+  {
+   "src_start": 248.93,
+   "src_end": 250.15,
+   "dst_start": 221.5,
+   "dst_end": 222.72
+  },
+  {
+   "src_start": 250.23,
+   "src_end": 257.4,
+   "dst_start": 222.7,
+   "dst_end": 229.87
+  },
+  {
+   "src_start": 257.58,
+   "src_end": 262.36,
+   "dst_start": 229.85,
+   "dst_end": 234.63
+  },
+  {
+   "src_start": 262.47,
+   "src_end": 264.67,
+   "dst_start": 234.61,
+   "dst_end": 236.81
+  },
+  {
+   "src_start": 265.02,
+   "src_end": 266.18,
+   "dst_start": 236.79,
+   "dst_end": 237.95
+  },
+  {
+   "src_start": 266.28,
+   "src_end": 269.71,
+   "dst_start": 237.93,
+   "dst_end": 241.36
+  },
+  {
+   "src_start": 269.94,
+   "src_end": 271.69,
+   "dst_start": 241.34,
+   "dst_end": 243.09
+  },
+  {
+   "src_start": 271.71,
+   "src_end": 274.39,
+   "dst_start": 243.07,
+   "dst_end": 245.75
+  },
+  {
+   "src_start": 274.49,
+   "src_end": 276.9,
+   "dst_start": 245.73,
+   "dst_end": 248.14
+  },
+  {
+   "src_start": 277.15,
+   "src_end": 277.6,
+   "dst_start": 248.12,
+   "dst_end": 248.57
+  },
+  {
+   "src_start": 277.96,
+   "src_end": 280.43,
+   "dst_start": 248.55,
+   "dst_end": 251.02
+  },
+  {
+   "src_start": 281.13,
+   "src_end": 281.47,
+   "dst_start": 251.0,
+   "dst_end": 251.34
+  },
+  {
+   "src_start": 281.69,
+   "src_end": 285.58,
+   "dst_start": 251.32,
+   "dst_end": 255.21
+  },
+  {
+   "src_start": 285.59,
+   "src_end": 285.97,
+   "dst_start": 255.19,
+   "dst_end": 255.57
+  },
+  {
+   "src_start": 286.13,
+   "src_end": 286.18,
+   "dst_start": 255.55,
+   "dst_end": 255.6
+  },
+  {
+   "src_start": 286.6,
+   "src_end": 289.02,
+   "dst_start": 255.58,
+   "dst_end": 258.0
+  },
+  {
+   "src_start": 289.05,
+   "src_end": 290.99,
+   "dst_start": 257.98,
+   "dst_end": 259.92
+  },
+  {
+   "src_start": 291.03,
+   "src_end": 291.28,
+   "dst_start": 259.9,
+   "dst_end": 260.15
+  },
+  {
+   "src_start": 291.38,
+   "src_end": 293.99,
+   "dst_start": 260.13,
+   "dst_end": 262.74
+  },
+  {
+   "src_start": 294.37,
+   "src_end": 295.84,
+   "dst_start": 262.72,
+   "dst_end": 264.19
+  },
+  {
+   "src_start": 296.34,
+   "src_end": 299.96,
+   "dst_start": 264.17,
+   "dst_end": 267.79
+  },
+  {
+   "src_start": 300.19,
+   "src_end": 303.67,
+   "dst_start": 267.77,
+   "dst_end": 271.25
+  },
+  {
+   "src_start": 303.73,
+   "src_end": 303.85,
+   "dst_start": 271.23,
+   "dst_end": 271.35
+  },
+  {
+   "src_start": 304.43,
+   "src_end": 308.48,
+   "dst_start": 271.33,
+   "dst_end": 275.38
+  },
+  {
+   "src_start": 308.67,
+   "src_end": 312.36,
+   "dst_start": 275.36,
+   "dst_end": 279.05
+  },
+  {
+   "src_start": 312.51,
+   "src_end": 315.18,
+   "dst_start": 279.03,
+   "dst_end": 281.7
+  },
+  {
+   "src_start": 315.21,
+   "src_end": 315.61,
+   "dst_start": 281.68,
+   "dst_end": 282.08
+  },
+  {
+   "src_start": 315.66,
+   "src_end": 317.11,
+   "dst_start": 282.06,
+   "dst_end": 283.51
+  },
+  {
+   "src_start": 317.12,
+   "src_end": 320.32,
+   "dst_start": 283.49,
+   "dst_end": 286.69
+  },
+  {
+   "src_start": 320.77,
+   "src_end": 322.85,
+   "dst_start": 286.67,
+   "dst_end": 288.75
+  },
+  {
+   "src_start": 322.86,
+   "src_end": 324.94,
+   "dst_start": 288.73,
+   "dst_end": 290.81
+  },
+  {
+   "src_start": 325.18,
+   "src_end": 331.15,
+   "dst_start": 290.79,
+   "dst_end": 296.76
+  },
+  {
+   "src_start": 331.21,
+   "src_end": 331.72,
+   "dst_start": 296.74,
+   "dst_end": 297.25
+  },
+  {
+   "src_start": 331.94,
+   "src_end": 333.89,
+   "dst_start": 297.23,
+   "dst_end": 299.18
+  },
+  {
+   "src_start": 334.23,
+   "src_end": 336.128,
+   "dst_start": 299.16,
+   "dst_end": 301.058
+  }
+ ],
+ "junctions": [
+  5.99,
+  6.41,
+  6.51,
+  9.9,
+  14.79,
+  17.45,
+  17.58,
+  22.78,
+  24.61,
+  27.53,
+  27.62,
+  30.35,
+  30.53,
+  32.73,
+  35.28,
+  35.36,
+  37.28,
+  42.42,
+  42.81,
+  42.84,
+  46.78,
+  49.56,
+  52.6,
+  57.83,
+  58.11,
+  65.48,
+  68.26,
+  72.79,
+  73.28,
+  73.38,
+  74.27,
+  79.12,
+  82.46,
+  82.71,
+  89.34,
+  89.44,
+  93.76,
+  96.65,
+  101.28,
+  106.26,
+  110.25,
+  111.75,
+  112.04,
+  112.14,
+  115.45,
+  115.57,
+  118.67,
+  123.51,
+  126.01,
+  126.65,
+  128.79,
+  131.6,
+  133.43,
+  133.79,
+  134.07,
+  134.12,
+  134.93,
+  135.73,
+  137.43,
+  141.02,
+  143.48,
+  145.82,
+  145.91,
+  147.98,
+  152.79,
+  153.9,
+  157.84,
+  158.37,
+  159.58,
+  165.26,
+  166.02,
+  169.88,
+  171.84,
+  172.83,
+  176.13,
+  179.75,
+  182.35,
+  183.81,
+  185.16,
+  187.18,
+  187.34,
+  192.25,
+  193.01,
+  193.89,
+  196.62,
+  200.26,
+  206.13,
+  211.28,
+  216.0,
+  221.34,
+  221.52,
+  222.72,
+  229.87,
+  234.63,
+  236.81,
+  237.95,
+  241.36,
+  243.09,
+  245.75,
+  248.14,
+  248.57,
+  251.02,
+  251.34,
+  255.21,
+  255.57,
+  255.6,
+  258.0,
+  259.92,
+  260.15,
+  262.74,
+  264.19,
+  267.79,
+  271.25,
+  271.35,
+  275.38,
+  279.05,
+  281.7,
+  282.08,
+  283.51,
+  286.69,
+  288.75,
+  290.81,
+  296.76,
+  297.25,
+  299.18
+ ]
+}
