@@ -1,0 +1,15 @@
+test_initial_execution_really_is_setuid_nonroot (test_public.PublicCredentialTests.test_initial_execution_really_is_setuid_nonroot) ... ok
+test_open_descriptor_survives_but_reopen_is_denied (test_public.PublicCredentialTests.test_open_descriptor_survives_but_reopen_is_denied) ... ok
+test_permanent_drop_prevents_privilege_regain (test_public.PublicCredentialTests.test_permanent_drop_prevents_privilege_regain) ... ok
+test_temporary_drop_and_restore (test_public.PublicCredentialTests.test_temporary_drop_and_restore) ... ok
+test_denied_worker_has_no_read_archive_or_completion (test_public.PublicPolicyTests.test_denied_worker_has_no_read_archive_or_completion) ... ok
+test_fetch_owner_only_and_non_run_does_not_log (test_public.PublicPolicyTests.test_fetch_owner_only_and_non_run_does_not_log) ... ok
+test_pending_clone_needs_owner_and_current_grant (test_public.PublicPolicyTests.test_pending_clone_needs_owner_and_current_grant) ... ok
+test_read_and_enqueue_require_current_grant (test_public.PublicPolicyTests.test_read_and_enqueue_require_current_grant) ... ok
+test_worker_checks_requester_and_preserves_owner (test_public.PublicPolicyTests.test_worker_checks_requester_and_preserves_owner) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.192s
+
+OK
+{"backend": "native_backend", "coverage": {"denied_worker_traces": 111, "successful_worker_traces": 327}, "datasets": {"A": "dataset A\nrecord 412493\n", "B": "dataset B\nrecord 60373\n", "C": "dataset C\nrecord 10865\n"}, "grants": {"alice": ["A"], "bob": ["B"], "carol": ["C"], "dave": []}, "passed": true, "seed": 14050714, "traces_generated": 500, "violations": []}

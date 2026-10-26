@@ -1,0 +1,1 @@
+{"backend": "native_backend", "coverage": {"denied_worker_traces": 86, "successful_worker_traces": 332}, "datasets": {"A": "dataset A\nrecord 905035\n", "B": "dataset B\nrecord 993869\n", "C": "dataset C\nrecord 890298\n"}, "grants": {"alice": ["A"], "bob": ["B"], "carol": ["C"], "dave": []}, "passed": true, "seed": 2, "traces_generated": 500, "violations": []}
