@@ -1,0 +1,56 @@
+[PASS] probe-alice.json initial == [998, 999, 999] -- [998, 999, 999]
+[PASS] probe-alice.json temporary == [998, 998, 999] -- [998, 998, 999]
+[PASS] probe-alice.json restored == [998, 999, 999] -- [998, 999, 999]
+[PASS] probe-alice.json permanent == [998, 998, 998] -- [998, 998, 998]
+[PASS] probe-alice.json service uid (initial EUID and SUID) == 999
+[PASS] probe-alice.json caller uid (RUID) == 998
+[PASS] probe-alice.json restore_errno == 1 (EPERM)
+[PASS] probe-alice.json reopen_errno == 13 (EACCES)
+[PASS] probe-alice.json held_content readable
+[PASS] probe-alice.json temporary changes only EUID
+[PASS] probe-alice.json restored equals initial
+[PASS] probe-bob.json initial == [997, 999, 999] -- [997, 999, 999]
+[PASS] probe-bob.json temporary == [997, 997, 999] -- [997, 997, 999]
+[PASS] probe-bob.json restored == [997, 999, 999] -- [997, 999, 999]
+[PASS] probe-bob.json permanent == [997, 997, 997] -- [997, 997, 997]
+[PASS] probe-bob.json service uid (initial EUID and SUID) == 999
+[PASS] probe-bob.json caller uid (RUID) == 997
+[PASS] probe-bob.json restore_errno == 1 (EPERM)
+[PASS] probe-bob.json reopen_errno == 13 (EACCES)
+[PASS] probe-bob.json held_content readable
+[PASS] probe-bob.json temporary changes only EUID
+[PASS] probe-bob.json restored equals initial
+[PASS] log: 9 public tests reported ok -- 9 lines
+[PASS] log: 'Ran 9 tests' and 'OK'
+[PASS] log: no runtime/exit-code line inside the saved log
+[PASS] log final JSON equals seed-14050714.json
+[PASS] seed 14050714 passed true, violations []
+[PASS] seed 14050714 traces_generated == 500
+[PASS] seed 14050714 coverage 327 successful / 111 denied
+[PASS] repeat-14050714.json byte-identical to seed-14050714.json
+[PASS] seed 1: passed, 500 traces, no violations -- {"denied_worker_traces": 104, "successful_worker_traces": 327}
+[PASS] seed 1: seed field matches
+[PASS] seed 2: passed, 500 traces, no violations -- {"denied_worker_traces": 86, "successful_worker_traces": 332}
+[PASS] seed 2: seed field matches
+[PASS] seed 3: passed, 500 traces, no violations -- {"denied_worker_traces": 130, "successful_worker_traces": 325}
+[PASS] seed 3: seed field matches
+[PASS] sha256(inputs/traces.json) equals the value recorded in the terminal evidence -- 0a5ff31fcbed68c8e70c3dc8f53ab128358dda1f91c18b00231a1211c81e6fc8
+[PASS] traces.json seed == 14050714
+[PASS] traces.json holds 500 traces
+[PASS] traces.json: 500 distinct traces
+[PASS] traces.json: every trace has 5-20 operations -- min=5 max=20
+[PASS] model-only recount of traces.json: allowed run_worker traces == 327 -- 327
+[PASS] model-only recount of traces.json: denied run_worker traces == 111 -- 111
+[INFO] traces with BOTH an allowed and a denied run_worker (model-only recount): 50
+[INFO] 327 + 111 = 438; union = 388 of 500 (counts overlap)
+[PASS] witness: backend is mutant_backend and passed is false
+[PASS] witness: exactly one violation, one_minimal true
+[PASS] witness: class == [run_worker, archives]
+[PASS] witness: reduced trace has 2 operations -- [{"actor": "alice", "as": "j2", "dataset": "A", "op": "enqueue"}, {"as": "a7", "executor": "carol", "job": "j2", "op": "run_worker"}]
+[PASS] witness: owner expected alice, observed carol
+[PASS] witness: full 2-op trace is model-valid
+[PASS] witness: dropping the enqueue leaves an unbound job reference (model-invalid)
+[PASS] witness: dropping run_worker leaves a model-valid trace with no archive
+[PASS] witness: model alone creates no archive after the enqueue
+[PASS] witness: model assigns the archive to the requester alice
+[INFO] supplied traces.json trace 0 has 16 operations; the two witness operations appear there as operations [2, 7] (not shown in the video)
