@@ -1,0 +1,13 @@
+{
+  "name": "persian-setuid-assignment-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frame-by-frame HTML renderer for the Persian setuid assignment explainer video",
+  "type": "module",
+  "scripts": {
+    "render": "node src/render/render.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}
