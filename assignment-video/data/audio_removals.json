@@ -1,0 +1,23 @@
+{
+  "note": "Intervals (seconds in the ORIGINAL recording) removed before pause compression. Each cut start lies in a quiet region and each cut end lies in a dark gap or at a word onset; boundaries were chosen from spectrograms and the energy envelope.",
+  "removals": [
+    {"id": "filler-cue3",  "start": 6.90,   "end": 7.47,   "kind": "filler",       "note": "elongated 'eh' before the first sentence"},
+    {"id": "filler-cue6",  "start": 19.14,  "end": 19.48,  "kind": "filler",       "note": "'eh' before the exportsvc sentence"},
+    {"id": "filler-cue7",  "start": 29.86,  "end": 30.15,  "kind": "filler",       "note": "'eh' inside 'the one who made the request'"},
+    {"id": "filler-cue9",  "start": 33.83,  "end": 34.18,  "kind": "filler",       "note": "'eh' before credentials.c"},
+    {"id": "filler-cue10", "start": 39.12,  "end": 39.41,  "kind": "filler",       "note": "'eh' before 'which user ran the program'"},
+    {"id": "filler-cue12", "start": 47.55,  "end": 47.98,  "kind": "filler",       "note": "'eh' before policy.c"},
+    {"id": "filler-cue20", "start": 81.22,  "end": 81.49,  "kind": "filler",       "note": "'eh' before the revocation example"},
+    {"id": "filler-cue24", "start": 99.07,  "end": 99.55,  "kind": "filler",       "note": "'eh' before the credential-dropping section"},
+    {"id": "filler-cue30", "start": 123.77, "end": 124.22, "kind": "filler",       "note": "'eh' before the probe sentence"},
+    {"id": "filler-cue31", "start": 127.92, "end": 128.36, "kind": "filler",       "note": "'eh' before 'in this installation'"},
+    {"id": "filler-cue36", "start": 149.12, "end": 149.77, "kind": "filler",       "note": "'eh' before the open-descriptor remark"},
+    {"id": "repeat-eacces", "start": 162.28, "end": 164.31, "kind": "false-start", "note": "false start: the first 'with the error ... EACCES' before the repeated, complete phrase"},
+    {"id": "filler-cue51", "start": 209.60, "end": 210.10, "kind": "filler",       "note": "'eh' before the comparison sentence"},
+    {"id": "filler-cue58", "start": 248.50, "end": 248.93, "kind": "filler",       "note": "'eh' before the faulty-backend sentence"},
+    {"id": "throat-clear", "start": 277.60, "end": 277.96, "kind": "throat",       "note": "throat clearing between the words before 'the mismatch'"},
+    {"id": "filler-cue67", "start": 286.18, "end": 286.60, "kind": "filler",       "note": "'eh' before 'if we remove the enqueue'"},
+    {"id": "repeat-nine",  "start": 295.84, "end": 296.34, "kind": "repeat",       "note": "stuttered first attempt of 'nine'; the repeated phrase follows"},
+    {"id": "filler-cue72", "start": 303.85, "end": 304.43, "kind": "filler",       "note": "'eh' before '500 sequences'"}
+  ]
+}
