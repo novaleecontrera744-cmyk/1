@@ -1,0 +1,4 @@
+node_modules/
+build/stills/
+build/audio/*.wav
+__pycache__/
